@@ -1,4 +1,3 @@
-
 array = []
 nan=false;
 
@@ -20,7 +19,7 @@ function mostrarArreglo() {
         
     }
     // array[length-1]==NaN? console.log(0):console.log(array.sort())
-    console.log(array)
+    console.log(array.sort(function(a, b){return a - b}))
 }
 
 
